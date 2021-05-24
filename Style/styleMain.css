@@ -1,0 +1,238 @@
+:root {
+    --dark-body: #4d4c5a;
+    --dark-main: #141529;
+    --dark-second: #79788c;
+    --dark-hover: #323048;
+    --dark-text: #f8fbff;
+
+    --light-body: #f3f8fe;
+    --light-main: #fdfdfd;
+    --light-second: #c3c2c8;
+    --light-hover: #edf0f5;
+    --light-text: #151426;
+
+    --blue: #0000ff;
+    --white: #fff;
+
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    --font-family: cursive;
+}
+
+.dark {
+    --bg-body: var(--dark-body);
+    --bg-main: var(--dark-main);
+    --bg-second: var(--dark-second);
+    --color-hover: var(--dark-hover);
+    --color-txt: var(--dark-text);
+}
+
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {height: 100%;}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: #333;
+    font-family: Segoe UI, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+}
+
+a {
+    color:black;
+}
+
+header{
+    padding: 1%;
+    width: 98%;
+    background-color: #ab8473 ;
+}
+
+header #logo {
+width: 15%;
+ float: left;
+}
+
+
+header #menuHead {
+    width: 70%;  
+     float: left;
+    text-align: center;
+
+}
+
+header #regAuth {
+    width: 15%;
+    float: left;
+    text-align: right;
+}
+
+/* Footer */
+
+footer { 
+    height: 4%;
+    padding: 1%;
+    width: 98%;
+    float: left;
+    background-color: #ab8473;
+}
+
+footer #social {
+    float: left;
+    width: 50%;
+}
+
+footer #rights {
+float: right;
+}
+
+#wrapper #image{
+    width: 100%;
+    background-color:gray;
+    height: 100%;
+    }   
+
+#wrapper{
+    width: 100%;
+    float: left;
+    height: 86%;
+}
+
+#wrapper #column{
+    float: left;
+    width: 10%;
+    background-color: #e2bb90    ;
+    height: 100%;
+   
+}
+
+#wrapper #content{
+     float: left;
+    width: 79%;
+    height: 100%;
+    background-color:#e2bb90;
+    border-bottom: 2px solid #ab8473;
+    border-right: 2px solid #ab8473;
+}
+
+#headCal{
+    width: 100%;
+    height: 10%;
+    background-color: #e2bb90 ;
+    border-bottom: 2px solid #ab8473;
+}
+
+#btnLeft{
+     width: 5%;
+     background-color: #7a4c3c ;
+     height: 90%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 4px;
+}
+
+#month{
+    margin-top: 27px;
+    float: left;
+     width: 88%;
+     background-color: #e2bb90 ;
+     height: 50%;
+     text-align: center;
+     font-size: 80px;
+}
+
+#btnRight{
+     float: left;
+     width: 5%;
+     background-color: #7a4c3c  ;
+     height: 90%;
+       margin-right: 1%;
+    margin-top: 4px;
+}
+
+#person{
+    height: 10%;
+    border-right : 3px solid #ab8473;
+    border-bottom: 3px solid #ab8473;
+}
+
+#find{
+    border-right : 3px solid #ab8473;
+    height: 90%;
+}
+
+#imgs{
+   background-color: #ab8473  ;
+}
+
+#imageOne{
+    width: 10%; 
+    margin-left: 8px;
+    margin-top: 8px;
+}
+#imageTwo{
+    width: 10%; 
+    margin-left: 8px;
+    margin-top: 8px;
+}
+#imageThree{
+    width: 10%; 
+    margin-left: 8px;
+    margin-top: 8px;
+}
+#imageFour{
+    width: 10%; 
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.day {
+    margin-left: 1%;
+    float: right;
+     width: 49%;
+    height: 45rem;
+    background-color: var(--bg-main);
+}
+
+#oneC{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#twoC{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+#everydaywork{
+    width: 100%;
+    background: gray;
+    height: 60%;
+}
+
+
+#detail{
+  float: right;
+    height: 100%;
+    width: 100%;
+    background: blue;
+}
+
+#datwork  {
+     float: left;
+    width: 100%;
+    background: brown;
+    height: 40%;
+}

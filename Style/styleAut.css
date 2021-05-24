@@ -1,0 +1,91 @@
+body{
+	background-color: #e2bb90 ;
+}
+header{
+    padding: 1%;
+    width: 100%;
+    background-color: #ab8473 ;
+}
+
+header #logo {
+width: 15%;
+ float: left;
+}
+
+
+header #menuHead {
+    width: 70%;  
+     float: left;
+    text-align: center;
+
+}
+
+header #regAuth {
+    width: 15%;
+    float: left;
+    text-align: right;
+}
+
+/* Footer */
+
+footer { 
+	margin-top: 10.9%;
+    height: 4%;
+    padding: 1%;
+    width: 100%;
+    float: left;
+    background-color: #ab8473;
+}
+
+footer #social {
+    float: left;
+    width: 50%;
+}
+
+footer #rights {
+float: right;
+}
+
+
+form{
+	margin-top: 6%;
+    margin-left: 35%;
+    margin-right: 35%;
+	width: 30%;
+	background-color: gray;
+	padding: 4%;
+}
+
+#login{
+margin-top: 15%;
+}
+
+
+#fa{
+	width: 100%;
+	text-align: center;
+}
+
+#butNext{
+	width: 100%;
+	float: right;
+	margin-bottom: 5%;
+}
+
+
+#hd{
+	background: #8ac18a ;
+	width: 100%;
+	margin-left: 35%;
+
+	margin-top: 10%;
+
+}
+
+#hr{
+
+	background: #8ac18a ;
+	margin-left: 40%;
+	width: 100%;
+	text-align: center;
+}
