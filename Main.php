@@ -52,13 +52,7 @@
             <div id="content">
                 <form id="headCal">
 
-                      <button  id="btnLeft">
-                       </button>
-
-                       <h3 id="month" text= "Май">Май</h3>
                       
-                       <button id="btnRight">
-                       </button>
 
                 </form>
                 <form class="container">

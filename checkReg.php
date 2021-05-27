@@ -1,15 +1,12 @@
 <?php 
- $user = "root";
-$password = "root";
-$db = "database";
+  $user = "danilsocol_db";
+$password = "Seraphic21";
+$db = "danilsocol_db";
 $host = "localhost";
 
-$conn= new mysqli($host,$user,$password,$db);
+$mysql= new mysqli($host,$user,$password,$db);
 
-if ($conn->connect_error) {
-    die('Ошибка при подключении: ' . $conn->connect_error);
-}
-else{
-    echo "yes";
-}
+
+$mysql->query("INSERT INTO `db`(`login`,`pass`,`name`) VALUES('$login','$pass','name')");
+$mysql->close();
 ?> 
